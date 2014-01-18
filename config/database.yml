@@ -19,8 +19,7 @@ development:
   encoding: unicode
   database: vin_tracker_development
   pool: 5
-  username: vin_tracker
-  password:
+  username: dbuser
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +47,11 @@ test:
   encoding: unicode
   database: vin_tracker_test
   pool: 5
-  username: vin_tracker
-  password:
+  username: dbuser
 
 production:
   adapter: postgresql
   encoding: unicode
   database: vin_tracker_production
   pool: 5
-  username: vin_tracker
-  password:
+  username: dbuser
